@@ -81,4 +81,6 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  include spotify
 }
