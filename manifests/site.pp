@@ -83,4 +83,5 @@ node default {
   }
 
   include spotify
+  include macvim
 }

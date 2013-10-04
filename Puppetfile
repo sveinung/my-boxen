@@ -37,3 +37,5 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "spotify",    "1.0.1"
+github "macvim",     "1.0.0"
+
