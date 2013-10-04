@@ -84,4 +84,5 @@ node default {
 
   include spotify
   include macvim
+  include iterm2::stable
 }

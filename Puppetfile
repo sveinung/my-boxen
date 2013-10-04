@@ -38,4 +38,5 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 github "spotify",    "1.0.1"
 github "macvim",     "1.0.0"
+github "iterm2",     "1.0.3"
 
