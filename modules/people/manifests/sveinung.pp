@@ -16,6 +16,7 @@ class people::sveinung {
   include macvim
   include iterm2::stable
   include sbt
+  include caffeine
 
   class { 'intellij':
     edition => 'community',
