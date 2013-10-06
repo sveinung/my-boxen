@@ -40,4 +40,15 @@ class people::sveinung {
     source => "${dotfiles}/vimrc",
     require => Repository[$dotfiles],
   }
+
+  file { [ "${home}/.vim",
+           "${home}/.vim/autoload" ]:
+    ensure => directory,
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.vim/autoload/pathogen.vim":
+    ensure => present,
+    source => "${dotfiles}/vim/autoload/pathogen.vim",
+  }
 }
