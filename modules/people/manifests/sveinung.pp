@@ -23,9 +23,7 @@ class people::sveinung {
     version => '12.1.5',
   }
 
-  class { 'fish':
-    chsh => false,
-  }
+  include fish
 
   file { "${home}/.gitconfig":
     ensure => present,
