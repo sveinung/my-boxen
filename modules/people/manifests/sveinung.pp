@@ -24,6 +24,17 @@ class people::sveinung {
 
   include fish
 
+  file { [ "${home}/.config",
+           "${home}/.config/fish" ]:
+    ensure => directory,
+    require => Repository[$dotfiles],
+  }
+
+  file { "${home}/.config/fish/config.fish":
+    ensure => present,
+    source => "${dotfiles}/config/fish/config.fish"
+  }
+
   file { "${home}/.gitconfig":
     ensure => present,
     source => "${dotfiles}/gitconfig",
