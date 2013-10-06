@@ -31,4 +31,7 @@ class people::sveinung {
     ensure => present,
     source => "${dotfiles}/gitconfig",
   }
+
+  class { 'nodejs::global': version => 'v0.10.5' }
+  nodejs::module { 'bower': node_version => 'v0.10' }
 }
