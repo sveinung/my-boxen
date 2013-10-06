@@ -42,7 +42,8 @@ class people::sveinung {
   }
 
   file { [ "${home}/.vim",
-           "${home}/.vim/autoload" ]:
+           "${home}/.vim/autoload",
+           "${home}/.vim/colors" ]:
     ensure => directory,
     require => Repository[$dotfiles],
   }
@@ -50,5 +51,10 @@ class people::sveinung {
   file { "${home}/.vim/autoload/pathogen.vim":
     ensure => present,
     source => "${dotfiles}/vim/autoload/pathogen.vim",
+  }
+
+  file { "${home}/.vim/colors/solarized.vim":
+    ensure => present,
+    source => "${dotfiles}/vim/colors/solarized.vim",
   }
 }
