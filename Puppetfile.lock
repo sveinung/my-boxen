@@ -98,6 +98,11 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: steinim/puppet-sbt
+  specs:
+    sbt (0.0.1)
+
 DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
@@ -115,6 +120,7 @@ DEPENDENCIES
   openssl (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)
+  sbt (= 0.0.1)
   spotify (= 1.0.1)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)

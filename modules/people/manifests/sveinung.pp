@@ -15,6 +15,7 @@ class people::sveinung {
   include spotify
   include macvim
   include iterm2::stable
+  include sbt
 
   class { 'intellij':
     edition => 'community',

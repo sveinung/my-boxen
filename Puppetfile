@@ -40,4 +40,5 @@ github "spotify",    "1.0.1"
 github "macvim",     "1.0.0"
 github "iterm2",     "1.0.3"
 github "intellij",   "1.3.0"
+github "sbt",        "0.0.1", :repo => "steinim/puppet-sbt"
 
