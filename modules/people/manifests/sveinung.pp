@@ -17,6 +17,7 @@ class people::sveinung {
   include sbt
   include caffeine
   include mongodb
+  include sublime_text_2
 
   class { 'intellij':
     edition => 'community',
