@@ -16,6 +16,7 @@ class people::sveinung {
   include iterm2::stable
   include sbt
   include caffeine
+  include mongodb
 
   class { 'intellij':
     edition => 'community',

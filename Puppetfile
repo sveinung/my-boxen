@@ -44,4 +44,5 @@ github "sbt",        "0.0.1", :repo => "steinim/puppet-sbt"
 github "caffeine",   "1.0.0"
 github "osx",        "1.6.0"
 github "fish",       "1.0.0"
+github "mongodb",    "1.0.4"
 
