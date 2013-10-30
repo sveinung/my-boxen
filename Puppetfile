@@ -47,4 +47,5 @@ github "fish",       "1.0.0"
 github "mongodb",    "1.0.4"
 github "sublime_text_2", "1.1.2"
 github "dropbox",    "1.1.1"
+github "virtualbox", "1.0.7"
 

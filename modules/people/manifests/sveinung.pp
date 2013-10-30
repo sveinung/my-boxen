@@ -19,6 +19,7 @@ class people::sveinung {
   include mongodb
   include sublime_text_2
   include dropbox
+  include virtualbox
 
   class { 'intellij':
     edition => 'community',
