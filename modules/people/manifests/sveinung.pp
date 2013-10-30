@@ -20,6 +20,7 @@ class people::sveinung {
   include sublime_text_2
   include dropbox
   include virtualbox
+  include vagrant
 
   class { 'intellij':
     edition => 'community',

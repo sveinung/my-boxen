@@ -48,4 +48,5 @@ github "mongodb",    "1.0.4"
 github "sublime_text_2", "1.1.2"
 github "dropbox",    "1.1.1"
 github "virtualbox", "1.0.7"
+github "vagrant",    "3.0.0"
 
