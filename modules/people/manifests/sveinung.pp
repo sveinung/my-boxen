@@ -73,4 +73,10 @@ class people::sveinung {
     ensure => present,
     source => "${dotfiles}/vim/colors/solarized.vim",
   }
+
+  file { "${home}/.bashrc":
+    ensure => present,
+    source => "${dotfiles}/bashrc",
+    require => Repository[$dotfiles],
+  }
 }
