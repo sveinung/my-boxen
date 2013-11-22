@@ -21,6 +21,7 @@ class people::sveinung {
   include dropbox
   include virtualbox
   include vagrant
+  include steam
 
   class { 'intellij':
     edition => 'community',
