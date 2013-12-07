@@ -12,6 +12,7 @@ class people::sveinung {
     require => File[$my]
   }
 
+  include homebrew
   include spotify
   include iterm2::stable
   include sbt
