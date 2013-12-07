@@ -81,4 +81,8 @@ class people::sveinung {
     source => "${dotfiles}/bashrc",
     require => Repository[$dotfiles],
   }
+
+  package { 'gradle':
+    ensure => present,
+  }
 }
