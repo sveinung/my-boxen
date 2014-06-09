@@ -66,7 +66,9 @@ node default {
   include nodejs::v0_10
 
   # default ruby versions
-  include ruby::2_0_0
+  class { 'ruby::global':
+    version => '2.0.0'
+  }
 
   # common, useful packages
   package {
