@@ -26,7 +26,7 @@ class people::sveinung {
 
   class { 'intellij':
     edition => 'community',
-    version => '12.1.5',
+    version => '13.1.3',
   }
 
   include fish
