@@ -85,4 +85,8 @@ class people::sveinung {
   package { 'gradle':
     ensure => present,
   }
+
+  package { 'leiningen':
+    ensure => present,
+  }
 }
