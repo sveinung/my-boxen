@@ -4,14 +4,14 @@ GITHUBTARBALL
     boxen (3.6.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-foreman
-  specs:
-    foreman (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -22,6 +22,11 @@ GITHUBTARBALL
   remote: boxen/puppet-fish
   specs:
     fish (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-foreman
+  specs:
+    foreman (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -82,6 +87,11 @@ GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -153,9 +163,17 @@ GITHUBTARBALL
   specs:
     module_data (0.0.3)
 
+GITHUBTARBALL
+  remote: steinim/puppet-sbt
+  specs:
+    sbt (0.0.1)
+
 DEPENDENCIES
   boxen (= 3.6.2)
+  caffeine (= 1.0.0)
   dnsmasq (= 1.0.1)
+  dropbox (= 1.1.1)
+  fish (= 1.0.0)
   foreman (= 1.2.0)
   gcc (= 2.1.1)
   git (= 2.5.0)
@@ -163,15 +181,26 @@ DEPENDENCIES
   homebrew (= 1.9.4)
   hub (= 1.3.0)
   inifile (= 1.1.1)
+  intellij (= 1.3.0)
+  iterm2 (= 1.0.3)
+  macvim (= 1.0.0)
   module_data (= 0.0.3)
+  mongodb (= 1.0.4)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
+  osx (= 1.6.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   repository (= 2.3.0)
   ruby (= 8.1.2)
+  sbt (= 0.0.1)
+  spotify (= 1.0.1)
   stdlib (= 4.2.1)
+  steam (= 1.0.1)
+  sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
+  vagrant (= 3.0.0)
+  virtualbox (= 1.0.7)
   xquartz (= 1.1.1)
 
